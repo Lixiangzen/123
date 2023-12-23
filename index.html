@@ -11,22 +11,22 @@
 			font-family: Arial, Helvetica, sans-serif;
 			text-align: center;
 			mergin:0;
-			padding: 0;
+			padding: 10px;
 		}
 		header{
-			border-radius: 30px;
+			border-radius: 50px;
 			background-color: #000000;
 			color: #ffffff;
 			padding: 20px;
 			margin-bottom: 20px;
 		}
 		h1{
-			font-size: 50px;
+			font-size: 700%;
 			margin-bottom: 0;
 		}
 		p{
-			font-size: 18px;
-			margin-bottom: 0;a
+			font-size: 200%;
+			margin-bottom: 20;a
 		}
 		ul{
 			list-style-type: none;
@@ -37,9 +37,10 @@
 			justify-content: center;
 		}
 		li{
-			margin: 10px;
+			margin: 20px;
 		}
 		a{
+			font-size: 200%;
 			color: #000000;
 			text-decoration: none;
 			font-weight: bold;
@@ -52,6 +53,49 @@
 			background-color: #000000;
 			color: #ffffff;
 		}
+		
+		.out{
+			border-radius: 20px;
+				background-color: #000000;
+			    width: 100%;
+				height: 50px;
+			    margin: 0 auto;
+			    overflow: hidden;
+				margin: 0;
+			}
+			
+			.animate {
+				margin: 0;
+			    padding-left: 20px;
+			    font-size: 30px;
+			    color: #ffffff;
+			    display: inline-block;
+			    white-space: nowrap;
+			    animation: 10s wordsLoop linear infinite normal;
+			}
+			
+			@keyframes wordsLoop {
+			    0% {
+			        transform: translateX(200px);
+			        -webkit-transform: translateX(350px);
+			    }
+			    100% {
+			        transform: translateX(-100%);
+			        -webkit-transform: translateX(-100%);
+			    }
+			}
+			
+			@-webkit-keyframes wordsLoop {
+			    0% {
+			        transform: translateX(200px);
+			        -webkit-transform: translateX(200px);
+			    }
+			    100% {
+			        transform: translateX(-100%);
+			        -webkit-transform: translateX(-100%);
+			    }
+			}
+		
 	}
 	</style>
 	</head>
@@ -60,6 +104,15 @@
 			<h1>lixz</h1>
 			<p>快速·简洁</p>
 		</header>
+		
+		<!--循环横幅-->
+		<div class="out">
+		        <p class="animate">
+		            点击后立即开始下载-----反馈WX：a2974940454
+		        </p>
+		    </div>
+		
+		
 		<ul>
 			<li><!--安卓手表ADB-->
 				<a href="https://www.pcsoft.com.cn/hdjisah/211591?module=soft&t=downloader">安卓手表ADB</a>
@@ -71,6 +124,10 @@
 			
 			<li><!--WearOS 工具箱-->
 				<a href="https://down.wsyhn.com/23_266323">WearOS 工具箱</a>
+			</li>
+			
+			<li>
+				<a href="https://www.bandicam.cn/downloads/ing/">bandicam 班迪录屏</a>
 			</li>
 		</ul>
 	</body>
