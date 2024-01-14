@@ -11,13 +11,14 @@
 			font-family: Arial, Helvetica, sans-serif;
 			text-align: center;
 			mergin:0;
-			padding: 10px;
+			padding: 0px;
 		}
 		header{
-			border-radius: 50px;
+			height: 400px;
+			border-radius: 65px;
 			background-color: #000000;
 			color: #ffffff;
-			padding: 20px;
+			padding: 5px;
 			margin-bottom: 20px;
 		}
 		h1{
@@ -51,17 +52,18 @@
 		}
 		a;:hover{
 			background-color: #000000;
-			color: #ffffff;
+			color: #000000;
 		}
 		
 		.out{
-			border-radius: 20px;
 				background-color: #000000;
 			    width: 100%;
-				height: 50px;
+				height: 45px;
 			    margin: 0 auto;
 			    overflow: hidden;
 				margin: 0;
+				padding: 0px;
+				border-radius: 10px;
 			}
 			
 			.animate {
@@ -94,41 +96,53 @@
 			        transform: translateX(-100%);
 			        -webkit-transform: translateX(-100%);
 			    }
+				
+			}
+			
+			.box {
+			  border-radius: 55px;
+			  padding: 10px;
+			  border: 5px solid black;
+			}
+			
+			.刷机类 {
+				font-size: 300%;
+				margin-bottom: 5;
 			}
 		
 	}
+
 	</style>
 	</head>
 	<body>
 		<header>
 			<h1>lixz</h1>
 			<p>快速·简洁</p>
+			<!--循环横幅-->
+			<div class="out">
+			        <p class="animate">
+			            点击后立即开始下载(电脑软件)-----反馈WX：a2974940454
+			        </p>
+			    </div>
 		</header>
 		
-		<!--循环横幅-->
-		<div class="out">
-		        <p class="animate">
-		            点击后立即开始下载-----反馈WX：a2974940454
-		        </p>
-		    </div>
 		
-		
-		<ul>
-			<li><!--安卓手表ADB-->
-				<a href="https://www.pcsoft.com.cn/hdjisah/211591?module=soft&t=downloader">安卓手表ADB</a>
-			</li>
+		<div class="box"><!--刷机类-->
+			<b class="刷机类">刷机类</b>
+			<ul>
+				<li><!--安卓手表ADB-->
+					<a href="https://www.pcsoft.com.cn/hdjisah/211591?module=soft&t=downloader">安卓手表ADB</a>
+				</li>
 			
-			<li><!--搞机助手-->
-				<a href="https://down.wsyhn.com/23_284453">搞机助手</a>
-			</li>
+				<li><!--搞机助手-->
+					<a href="https://down.wsyhn.com/23_284453">搞机助手</a>
+				</li>
 			
-			<li><!--WearOS 工具箱-->
-				<a href="https://down.wsyhn.com/23_266323">WearOS 工具箱</a>
-			</li>
+				<li><!--WearOS 工具箱-->
+					<a href="https://down.wsyhn.com/23_266323">WearOS 工具箱</a>
+				</li>
+			</ul>
 			
-			<li>
-				<a href="https://www.bandicam.cn/downloads/ing/">bandicam 班迪录屏</a>
-			</li>
-		</ul>
+		</div>
 	</body>
 </html>
