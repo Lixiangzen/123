@@ -1,121 +1,110 @@
-
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="UTF-8"/>
-		<meta name="viewport" content="wieth=device-width,inital-scale=1.0"/>
-	<title>LIXZ</title>
-	<style>
-		body{
-			background-color: #ffffff;
-			color: #000000;
-			font-family: Arial, Helvetica, sans-serif;
-			text-align: center;
-			mergin:0;
-			padding: 0px;
-		}
-		header{
-			height: 309px;
-			border-radius: 65px;
-			background-color: #000000;
-			color: #ffffff;
-			padding: 5px;
-			margin-bottom: 20px;
-		}
-		h1{
-			font-size: 700%;
-			margin-bottom: 0;
-		}
-		p{
-			font-size: 200%;
-			margin-bottom: 20;a
-		}
-		ul{
-			list-style-type: none;
-			margin: 0;
-			padding: 0;
-			display: flex;
-			flex-wrap: wrap;
-			justify-content: center;
-		}
-		li{
-			margin: 20px;
-		}
-		a{
-			font-size: 200%;
-			color: #000000;
-			text-decoration: none;
-			font-weight: bold;
-			border: 2px solid #000000;
-			border-radius: 10px;
-			padding: 10px 20px;
-			transition: background-color 0.3s ease;
-		}
-		a;:hover{
-			background-color: #000000;
-			color: #000000;
-		}
-		
-		.out{
-				background-color: #000000;
-			    width: 100%;
-				height: 70px;
-			    margin: 0px;
-			    overflow: hidden;
-				margin: 0;
-				padding: 0px;
-				border-radius: 50px;
-			}
-			
-			.animate {
-				margin: 1.5%;
-			    padding-left: 20px;
-			    font-size: 30px;
-			    color: #ffffff;
-			    display: inline-block;
-			    white-space: nowrap;
-			    animation: 10s wordsLoop linear infinite normal;
-			}
-			
-			@keyframes wordsLoop {
-			    0% {
-			        transform: translateX(200px);
-			        -webkit-transform: translateX(350px);
-			    }
-			    100% {
-			        transform: translateX(-100%);
-			        -webkit-transform: translateX(-100%);
-			    }
-			}
-			
-			@-webkit-keyframes wordsLoop {
-			    0% {
-			        transform: translateX(200px);
-			        -webkit-transform: translateX(200px);
-			    }
-			    100% {
-			        transform: translateX(-100%);
-			        -webkit-transform: translateX(-100%);
-			    }
-				
-			}
-			
-			.box {
-			  border-radius: 55px;
-			  padding: 10px;
-			  border: 5px solid black;
-			  margin-bottom: 20px;
-			}
-			
-			.SJL {
-				font-size: 300%;
-				margin-bottom: 5;
-			}
-		
-	}
-
-	</style>
-	</head>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>LIXZ</title>
+    <style>
+        body {
+            background-color: #ffffff;
+            color: #000000;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            height: 309px;
+            border-radius: 65px;
+            background-color: #000000;
+            color: #ffffff;
+            padding: 5px;
+            margin-bottom: 20px;
+        }
+        h1 {
+            font-size: 700%;
+            margin-bottom: 0;
+        }
+        p {
+            font-size: 200%;
+            margin-bottom: 20px;
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        li {
+            margin: 20px;
+        }
+        a {
+            font-size: 200%;
+            color: #000000;
+            text-decoration: none;
+            font-weight: bold;
+            border: 2px solid #000000;
+            border-radius: 10px;
+            padding: 10px 20px;
+            transition: background-color 0.3s ease;
+        }
+        a:hover {
+            background-color: #000000;
+            color: #ffffff;
+        }
+        .out {
+            background-color: #000000;
+            width: 100%;
+            height: 70px;
+            margin: 0;
+            overflow: hidden;
+            border-radius: 50px;
+            padding: 0;
+            margin: 0;
+        }
+        .animate {
+            margin: 1.5%;
+            padding-left: 20px;
+            font-size: 30px;
+            color: #ffffff;
+            display: inline-block;
+            white-space: nowrap;
+            animation: wordsLoop 10s linear infinite normal;
+        }
+        @keyframes wordsLoop {
+            0% {
+                transform: translateX(200px);
+                -webkit-transform: translateX(350px);
+            }
+            100% {
+                transform: translateX(-100%);
+                -webkit-transform: translateX(-100%);
+            }
+        }
+        @-webkit-keyframes wordsLoop {
+            0% {
+                transform: translateX(200px);
+                -webkit-transform: translateX(200px);
+            }
+            100% {
+                transform: translateX(-100%);
+                -webkit-transform: translateX(-100%);
+            }
+        }
+        .box {
+            border-radius: 55px;
+            padding: 10px;
+            border: 5px solid black;
+            margin-bottom: 20px;
+        }
+        .SJL {
+            font-size: 300%;
+            margin-bottom: 5;
+        }
+    </style>
+</head>
 	<body>
 		<header>
 			<h1>Lixz</h1>
@@ -144,6 +133,12 @@
       <li>
         <a href="https://github.com">Github托管</a>
       </li>
+	  
+	<li>
+	  <a href="https://www.airportal.cn/">Air portal</a>
+	</li>
+	
+	
     </ul>
 		</div>
 		
@@ -223,14 +218,51 @@
 					</li>
 				</ul>
 		</div>
-			
-			
-		
-		<!--循环横幅-->
-		<div class="out">
-		        <p class="animate">
-		            个人网站·请勿盗取   联系方式:a2974940454(微信)
-		        </p>
-		    </div>
-	</body>
+    <!--循环横幅-->
+    <div class="out">
+        <p class="animate">个人网站·请勿盗取   联系方式:a2974940454(微信)</p>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const links = document.querySelectorAll('a');
+            links.forEach(link => {
+                link.addEventListener('click', function(event) {
+                    event.preventDefault(); // Prevent the default link behavior
+                    const url = this.href; // Get the URL from the link clicked
+                    // Create an overlay element for loading animation
+                    const overlay = document.createElement('div');
+                    overlay.style.position = 'fixed';
+                    overlay.style.top = '0';
+                    overlay.style.left = '0';
+                    overlay.style.width = '100%';
+                    overlay.style.height = '100%';
+                    overlay.style.backgroundColor = 'rgba(0, 0, 0, 0.5)'; // semi-transparent black background
+                    overlay.style.display = 'flex';
+                    overlay.style.justifyContent = 'center';
+                    overlay.style.alignItems = 'center';
+                    overlay.style.zIndex = '9999'; // Ensure it's on top of other elements
+                    document.body.appendChild(overlay); // Add the overlay to the body
+                    // Create a loading spinner or text inside the overlay
+                    const spinner = document.createElement('div');
+                    spinner.style.border = '16px solid #f3f3f3'; // Light grey border
+                    spinner.style.borderTop = '16px solid #3498db'; // Blue color for the spinner part
+                    spinner.style.borderRadius = '50%'; // Circular shape
+                    spinner.style.width = '120px'; // Size of the spinner
+                    spinner.style.height = '120px'; // Size of the spinner
+                    spinner.style.animation = 'spin 2s linear infinite'; // Spinning animation
+                    overlay.appendChild(spinner); // Add the spinner to the overlay
+                    // Keyframes for the spinning animation (defined in CSS)
+                    const styleSheet = document.createElement('style');
+                    styleSheet.type = 'text/css';
+                    styleSheet.innerHTML = `@keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }`;
+                    document.head.appendChild(styleSheet); // Add the keyframes to the head of the document
+                    // Navigate to the URL after a short delay to simulate loading time
+                    setTimeout(function() {
+                        window.location.href = url; // Navigate to the URL after removing the overlay and showing the loading animation for a moment
+                    }, 1500); // Adjust the delay as needed for your loading animation duration
+                });
+            });
+        });
+    </script>
+</body>
 </html>
